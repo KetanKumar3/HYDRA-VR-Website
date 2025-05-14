@@ -33,13 +33,13 @@ function Card() {
   ]
   return (
     <>
-    <div className='flex justify-center items-center px-30 gap-5 pt-10 bg-[#8176AF]'>
+    <div className='flex  px-30 gap-5 pt-10 bg-[#8176AF] '>
       {cardData.map((item)=>(
         
-         <div className='w-1/4 text-center rounded-2xl bg-[#211E2E] text-white px-10 py-8 space-y-4' key={item.id}>
+         <div className='w-1/4 flex flex-col justify-center items-center  rounded-2xl bg-[#211E2E] text-white px-10 py-8 space-y-4' key={item.id}>
             <img src={item.image} alt='image' />
             <h2 className='text-xl font-bold'>{item.title}</h2>
-            <p className='text-gray-300'>{item.description}</p>
+            <p className='text-gray-300 text-center'>{item.description}</p>
             <button className='font-bold rounded-full px-6 py-2 bg-[#C0B7E8]'>TRY IT NOW</button>
          </div>
          
