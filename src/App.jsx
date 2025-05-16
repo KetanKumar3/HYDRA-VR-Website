@@ -4,6 +4,7 @@ import About from "./components/About"
 import Card from "./components/Card"
 import Technology from "./components/Technology"
 import Step from "./components/Step"
+import Footer from "./components/Footer"
 
 function App() {
  
@@ -16,6 +17,7 @@ function App() {
       <Card />
       <Technology />
       <Step />
+      <Footer />
     </>
   )
 }
