@@ -20,7 +20,7 @@ function About() {
             etiam erat velit scelerisque in dictum non consectetur a. Laoreet sit amet
             cursus sit amet. Vel eros donec ac odio tempor orci dapibus. Sem nulla pha
             retra diam sit amet nisl suscipit adipiscing bibendum. Leo a diam sollicitudi
-            n tempor.
+            n tempors.
           </p>
           <div>
             <button className='font-bold rounded-full px-6 py-3 bg-[#C0B7E8] text-black hover:bg-[#a89ac8] transition-colors'>
